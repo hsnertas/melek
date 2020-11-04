@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  text-align: center;
 }
 h1 {
   font-size: 3rem;
