@@ -17,10 +17,12 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  text-align: center;
 }
 h1 {
   font-size: 3rem;
   font-weight: normal;
+  text-align: center;
 }
 .countdown-container {
   display: flex;
@@ -38,4 +40,13 @@ h1 {
 }
 .countdown-el span {
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .big-text {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
 }
